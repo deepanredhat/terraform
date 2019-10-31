@@ -7,7 +7,7 @@ resource "aws_instance" "firstmachine" {
 	instance_type = "t2.micro"
 	key_name = "botokey3"
 	tags = {
-    Name = "firstmachine"
+                Name = "firstmachine"
 		env = "dev"
 		team = "devops"
   }
